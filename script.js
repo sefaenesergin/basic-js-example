@@ -1,16 +1,8 @@
-
-      // JavaScript goes here
-        document.addEventListener("DOMContentLoaded", function() {
-        function createParagraph() {
-            let para = document.createElement('p');
-            para.textContent = 'TIKLADIM!';
-            document.body.appendChild(para);
-        }
-
-        const buttons = document.querySelectorAll('button');
-
-        for(let i = 0; i < buttons.length ; i++) {
-            buttons[i].addEventListener('click', createParagraph);
-        }
-        });
-        alert("Hello World!")
+var Number1,Number2,Operator,result,answer,true=0,false=0;
+ Number1=document.getElementById('Number1');
+ Number2=document.getElementById('Number2');
+ Operator=document.getElementById('Operator');
+ result=document.getElementById('result');
+ answer=document.getElementById('answer'); 
+ true=document.getElementById('true'); 
+ false=document.getElementById('false'); 

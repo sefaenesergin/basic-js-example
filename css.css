@@ -1,0 +1,57 @@
+body{
+    color: #fff;
+    background: #573334;
+}
+
+#myFirstGame{
+    width: 350px;
+    background: grey;
+    padding: 18px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+ margin: 0 0 18px 0;
+ border: 2px solid   #fff;
+ padding: 15px;
+ font-weight: 800;
+ text-align: center;
+}
+span{
+ font-size: 50px;
+ padding: 12px;
+}
+#result{
+ width: 120px;
+ height: 60px;
+}
+#answer{
+ margin-top: 10px;
+ padding: 5px;
+ border: dashed;
+ width: 250px;
+ height: 200px;
+ background-color: indigo;
+ color: yellow;
+ font-size: xx-large;
+}
+#answer:hover{
+ background: violet;
+}
+#true,#false{
+ font-size: 550%;
+ margin-top: 10px;
+ padding: 10px;
+ 
+}
+#true{
+ background:green ;
+ height: 150px;
+ width: 150xp;
+}
+#false{
+ background:red ;
+ height: 150px;
+ width: 150xp;
+
+}
