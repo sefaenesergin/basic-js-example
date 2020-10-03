@@ -29,27 +29,27 @@ span{
  margin-top: 10px;
  padding: 5px;
  border: dashed;
- width: 250px;
- height: 200px;
+ width: auto;
+ height: auto;
  background-color: indigo;
- color: yellow;
- font-size: xx-large;
+ color: rgb(255, 255, 0);
+ font-size: x-large;
 }
 #answer:hover{
- background: violet;
+ background: rgb(167, 65, 167);
 }
-#true,#false{
+#True,#False{
  font-size: 550%;
  margin-top: 10px;
  padding: 10px;
  
 }
-#true{
+#True{
  background:green ;
  height: 150px;
  width: 150xp;
 }
-#false{
+#False{
  background:red ;
  height: 150px;
  width: 150xp;
